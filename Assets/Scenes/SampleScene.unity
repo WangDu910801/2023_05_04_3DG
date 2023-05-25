@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 343810917}
   - component: {fileID: 343810916}
   - component: {fileID: 343810915}
+  - component: {fileID: 343810918}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -320,6 +321,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343810913}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &343810918
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343810913}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe5ff0a738b288a4cad9ad8743e7ff99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,7 +1320,7 @@ MonoBehaviour:
   recoilForce: 5
   ammunitionDisplay: {fileID: 1368304085}
   reloadingDisplay: {fileID: 1521367679}
-  ani: {fileID: 0}
+  animatorObject: {fileID: 343810918}
 --- !u!1 &1909880273
 GameObject:
   m_ObjectHideFlags: 0
